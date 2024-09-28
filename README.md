@@ -97,11 +97,11 @@ During each iteration, your task will be first to write the unit tests and then 
 
 ### Iteration 1 | Getting Started
 
-To help you get started, we have provided you with the first function `add` and the corresponding unit tests. You can find the function code in the `src/add.js` file and the unit tests in the `tests/add.test.js` file.
+To help you get started, we have provided you with the first function `add` and the corresponding unit tests. You can find the function code in the `src/add.js` file and the unit tests in the `tests/add.spec.js` file.
 
 
 
-Your task in this iteration is to review the unit test in  `tests/add.test.js` and the function code in `src/add.js` and try to understand how they work. After doing it, you should answer the following questions and complete the following tasks:
+Your task in this iteration is to review the unit test in  `tests/add.spec.js` and the function code in `src/add.js` and try to understand how they work. After doing it, you should answer the following questions and complete the following tasks:
 
 <br>
 
@@ -109,7 +109,7 @@ Your task in this iteration is to review the unit test in  `tests/add.test.js` a
 
 **Review the Tests**
 
-1. How many tests are there for the `add` function in the `add.test.js` file?
+1. How many tests are there for the `add` function in the `add.spec.js` file?
 
 
 
@@ -198,7 +198,7 @@ Following the example of the `add` function and its unit tests, write the unit t
 
 
 
-Files:  **tests** - `tests/divide.test.js`  |  **code** - `src/divide.js`
+Files:  **tests** - `tests/divide.spec.js`  |  **code** - `src/divide.js`
 
 <br>
 
@@ -215,7 +215,7 @@ Here are the requirements for the `divide` function:
 
 
 Here are the steps you should follow:
-1. Write the unit tests for the `divide` function in the `tests/divide.test.js` file. Make sure to include at least one test for each of the requirements listed above.<br>You can use the unit tests for the `add` function as a reference.
+1. Write the unit tests for the `divide` function in the `tests/divide.spec.js` file. Make sure to include at least one test for each of the requirements listed above.<br>You can use the unit tests for the `add` function as a reference.
 2. Run the tests by opening the `SpecRunner.html` file using the Live Server extension. You should see that all tests are failing.
 3. Implement the function `divide` function in the `src/divide.js` file.
 4. Rerun the tests again. You should see that all tests are passing.
@@ -249,11 +249,11 @@ Here are the steps you should follow:
 ----
 
 
-### Iteration 3 | Calculate Area
+### Bonus: Iteration 3 | Calculate Area
 
 Following the same process as in the previous iteration, write the unit tests for the **`calculateArea`** function and then implement the function.
 
-Files:  **tests** - `tests/calculateArea.test.js`  |  **code** - `src/calculateArea.js`
+Files:  **tests** - `tests/calculateArea.spec.js`  |  **code** - `src/calculateArea.js`
 
 <br>
 
@@ -293,96 +293,6 @@ Remember to follow the Red-Green-Refactor cycle: **(1)** first write the tests t
 </details>
 
 <br>
-
-
-----
-
-
-### Bonus: Iteration 4 | Print Full Name
-
-In this iteration, your task is to write the unit tests for the **`printFullName`** function and then implement the function.
-
-Files:  **tests** - `tests/printFullName.test.js`  |  **code** - `src/printFullName.js`
-
-<br>
-
-
-
-Here are the requirements for the `printFullName` function:
-- The function should be defined.
-- The function should take one argument of type object. The object should have two properties: `firstName` and `lastName`.
-- The function should return a string with the *first name* and the *last name* separated by a space.
-- In case the argument passed is not an object, the function should return `undefined`.
-- In case the `firstName` or `lastName` properties are not provided, the function should return `undefined`.
-
-<br>
-
-<details>
-
-  <summary><b>Solution</b></summary>
-
-  <p align="center">
-    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-unit-testing-jasmine/printfullname-spec.png" alt="printfullname tests solution"  width="850">
-  </p>
-
-  <br>
-
-  <p align="center">
-    <img  src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-unit-testing-jasmine/printfullname.png" alt="printfullname solution" width="850">
-  </p>
-
-  <br>
-
-  <hr>
-
-</details>
-
-<br>
-
-
-----
-
-### Bonus: Iteration 5 | Sum Array Numbers
-
-In this iteration, your task is to write the unit tests for the `sumArrayNumbers` function and then implement the function.
-
-
-
-Files:  **tests** - `tests/divide.test.js`  |  **code** - `src/divide.js`
-
-<br>
-
-Here are the requirements for the `sumArrayNumbers` function:
-- The function should be defined.
-- The function should take one argument of type array. The array should contain numbers.
-- The function should return the sum of all numbers in the array.
-- In case the argument passed is not an array, the function should return `undefined`.
-- In case the argument passed is an empty array, the function should return `0`.
-
-<br>
-
-<details>
-
-  <summary><b>Solution</b></summary>
-
-  <p align="center">
-    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-unit-testing-jasmine/sumarraynumbers-spec.png" alt="sumarraynumbers tests solution" width="850">
-  </p>
-
-  <br>
-
-  <p align="center">
-    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-unit-testing-jasmine/sumarraynumbers.png" alt="sumarraynumbers solution" width="850">
-  </p>
-
-  <br>
-
-  <hr>
-
-</details>
-
-<br>
-
 
 <br>
 
